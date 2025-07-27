@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Configuración del Usuario</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="config-panel">
+    <h2>Configuración</h2>
+
+    <label">Idioma: <select id="language">
+      <option id="es">Español</option>
+      <option id="en">Inglés</option>
+      <option id="fr">Francés</option>
+    </select></label>
+    
+
+    <label>Tema: <select id="theme">
+      <option>Auto</option>
+      <option>Claro</option>
+      <option>Oscuro</option>
+    </select></label>
+    
+    <label>Ejemplo de checkbox:<input type="checkbox" id="checkbox"></input></label>
+    
+    <label>Ejemplo de texto <input type="text" id="text"</input></label>
+   
+
+    <button id="btn-guardar"> Guardar Preferencias</button>
+    <button id="btn-reset"> Restablecer Preferencias</button>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
